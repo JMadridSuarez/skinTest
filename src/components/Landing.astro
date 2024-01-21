@@ -1,0 +1,29 @@
+
+---
+import '../styles/landing.css';
+
+---    
+        <section class="hero">
+            <div class="button-container">
+                <button id="miBoton">Hacer el test</button>
+            </div>
+        </section>
+        <script>
+            // Obtener el botón por su id
+            var boton = document.getElementById('miBoton');
+        
+            // Agregar un evento de clic al botón que redirige a otra página
+            boton.addEventListener('click', function() {
+              // Cambiar 'nueva_pagina.html' por la URL de la página a la que quieres redirigir
+                window.location.href = 'test';
+            });
+        </script>
+    
+        <footer class="social">
+            <ul class="icons-list">
+                <li class="icon-li"><a class="icon-a"  href="https://www.tiktok.com/@karenjumboc" target="_blank"><img class="img-svg" src="../../public/landing-img/tiktok.svg" alt=""></a></li>
+                <li class="icon-li"><a class="icon-a"  href="https://www.instagram.com/dra.karenjumbo/" target="_blank"><img class="img-svg" src="../../public/landing-img/instagram.svg" alt=""></a></li>
+                <li class="icon-li"><a class="icon-a"  href="https://www.youtube.com/@karenjumbo" target="_blank"><img class="img-svg" src="../../public/landing-img/youtube.svg" alt=""></a></li>
+            </ul>
+        </footer>
+    </main>

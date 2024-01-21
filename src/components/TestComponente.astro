@@ -1,0 +1,34 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Form1 from './Form1.astro'
+
+import Asesory from './Asesory.astro';
+import '../styles/test.css'
+---
+<Layout title="Skin Test">
+    <main>
+        <section class="hero" id="test">
+            <div class="form-container">
+                <Form1></Form1>
+            </div>
+        </section>
+
+        <div class="asesory-container">
+            <section class="asesory" id="asesory">
+                <div class="asesory-sec">
+                    <Asesory></Asesory>
+                </div>
+            </section>
+        </div>
+        
+    
+        <footer class="social">
+            <ul class="icons-list">
+                <li class="icon-li"><a class="icon-a"  href="https://www.tiktok.com/@karenjumboc" target="_blank"><img class="img-svg" src="../../public/landing-img/tiktok.svg" alt=""></a></li>
+                <li class="icon-li"><a class="icon-a"  href="https://www.instagram.com/dra.karenjumbo/" target="_blank"><img class="img-svg" src="../../public/landing-img/instagram.svg" alt=""></a></li>
+                <li class="icon-li"><a class="icon-a"  href="https://www.youtube.com/@karenjumbo" target="_blank"><img class="img-svg" src="../../public/landing-img/youtube.svg" alt=""></a></li>
+            </ul>
+        </footer>
+    </main>
+
+</Layout>

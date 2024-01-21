@@ -1,0 +1,27 @@
+---
+import Layout from "../layouts/Layout.astro";
+import "../styles/asesory.css"
+---
+
+<Layout title="Asesory">
+        <div class="container-asesory">
+            <form class="asesory-form" action="">
+                <div class="form-title">
+                    <h1>Formulario de contacto</h1>
+                </div>
+                <div class="inputs">
+                <label for="correo">Correo* <br><br><input id="correo" class="inpt" type="text" required></label><br>
+                <label for="nombre">Nombre <br><br><input id="nombre" class="inpt" type="text" required></label><br>
+                <label for="message">Mensaje</label><textarea placeholder="Escribe el mensaje ..." name="message" class="message-asesory" id="message" cols="30" rows="30"></textarea>
+                </div>
+                <div class="terms">
+                    <label for="check">Aceptar terminos y condiciones de tratamiento de datos personales <input id="check" class="check" type="checkbox" required></label>
+                </div>
+                
+                <div class="btn">
+                    <button>Enviar</button>
+                </div>
+                
+            </form>
+        </div>  
+</Layout>
