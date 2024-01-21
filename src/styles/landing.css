@@ -57,11 +57,27 @@ footer{
 }
 
 .icon-a{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
+}
+.icon-tiktok{
+    background-image: url('../../public/landing-img/tiktok.svg');
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.icon-insta{
+    background-image: url('../../public/landing-img/instagram.svg');
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.icon-yout{
+    background-image: url('../../public/landing-img/youtube.svg');
+    background-repeat: no-repeat;
+    background-position:center;
 }
 
 .img-svg{

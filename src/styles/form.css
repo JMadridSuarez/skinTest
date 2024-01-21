@@ -13,6 +13,13 @@
     justify-content: center;
     align-items: center;
 }
+.alert{
+    background-image: url('../../public/landing-img/attention.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20px;
+    width: 20px;
+}
 
 
 .blocks{
