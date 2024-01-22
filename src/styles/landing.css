@@ -1,7 +1,8 @@
 
 section{
-    background-image: url('../../public/landing-img/derma.jpg') ;
-    height: 85vh;
+    background-image: url('../../public/landing-img/derma.jpg');
+    background-size: 1200px 1000px;
+    height: 78vh;
     width: 100%;
     display: flex;
     justify-content: center;
