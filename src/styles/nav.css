@@ -45,6 +45,16 @@ a:hover{
     font-size: x-large;
 }
 
+@media (max-width: 360px) {
+    main{
+        width: 400px;
+    }
+    nav{
+        
+        width: 360px;
+    }
+}
+
 @media (max-width: 414px) {
     nav{
         width: 100%;

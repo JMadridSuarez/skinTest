@@ -244,8 +244,7 @@ import "../styles/form.css"
                 </div>
                 <div class="description" id="description"><p>La piel grasa se caracteriza por tener una apariencia brillosa, mayor 
                 produccion de sebo, presencia de comedones, poros dilatados y puede favorecer al apracimiento de acne.</p></div>
-                <div class="btn-again" id="btnAgain">
-                    <a class="link" href="#products">Da click para encontrar productos para tu tipo de piel</a>                 
+                <div class="btn-again" id="btnAgain">               
                     <a class="link" href="#asesory">Si tienes alguna duda, agenda una asesoria personalizada</a>                  
                     <a class="link" href="">Comenzar un nuevo test</a>
                 </div>
@@ -320,7 +319,7 @@ const observer = new IntersectionObserver(entries=>{
     })
         },
         {
-            threshold:0,
+            threshold:0.5,
         })
         blocks.forEach(block=>{
             observer.observe(block);

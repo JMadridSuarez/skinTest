@@ -40,14 +40,15 @@ section{
 }
 
 .asesory{
-    height: 85vh;
+    height: 95vh;
 }
 
 .asesory-sec{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80%;
+    top: -50px;
 }
 
 footer{
@@ -89,6 +90,12 @@ footer{
 
 .img-svg:hover{
     width: 60px;
+}
+@media (max-width: 360px) {
+.form-container{
+    position: relative;
+    left: -2px;
+}
 }
 
 @media (max-width: 800px) {
