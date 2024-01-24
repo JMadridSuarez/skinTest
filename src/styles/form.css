@@ -221,9 +221,23 @@ label{
     border-radius: 15px;
     transition: all 1s;
 }
-.siguiente:hover{
-    background: #f7878b;   
+
+.enable{
+    background: #f7878b;
+    font-size: larger;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #EEE7E7;
+    border: none;
+    width: 130px;
+    height: 40px;
+    border-radius: 15px;
+    transition: all 1s;
 }
+
 
 .anterior{
     font-size: larger;
