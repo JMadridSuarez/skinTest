@@ -456,39 +456,59 @@ function score(num){
     } else if (num >= 1101 && num <= 1200) {
         msjPrev.innerHTML = `<h2>Tu tipo de piel es: <h2/> `
         output.innerHTML = `<h1>${mensajes.seca.texto} ${mensajes.seca.resistencia}<h1/>` 
-        description.innerHTML = `<span>La piel seca se caracteriza por una ser tirante,sin brillo, tener poca produccion 
-            de sebo, es propensa a descamacion, enrojeciento y a la aparicion de pequenas arrugas; puede ser sensible y fina.</span> `;
+        description.innerHTML = `<span>La piel seca se caracteriza por una ser tirante,sin brillo,opaca, tener poca produccion 
+            de sebo, es propensa a la aparicion de pequenas arrugas; puede ser sensible y fina.
+            Las pieles resistentes tienen la última capa de la piel más fuerte, lo cual otorga protección a las células cutáneas, impidiendo la penetración de alergenos y 
+            otras sustancias irritantes, rara vez desarrollan acné y/o eritema.La mayoría de veces  pueden utilizar cualquier tipo de producto para el cuidado de la piel</span> `;
         //output.innerHTML = `<span class="${mensajes.mixta.clase}">Esta opción es:</span> ${mensajes.mixta.texto}`;
     } else if (num >= 1201 && num <= 1300) {
         msjPrev.innerHTML = `<h2>Tu tipo de piel es: <h2/> `
         output.innerHTML = `<h1>${mensajes.mixta.texto}  ${mensajes.mixta.resistencia}<h1/>` 
         description.innerHTML = `<span>La piel mixta se caracteriza por tener una zona T (frente,nariz y menton) 
-            con una apriencia oleosa/brillante y con poros dilatados mientras que otras areas del rostro son secas.</span> `;
+            con una apriencia oleosa/brillante y con poros dilatados mientras que otras areas del rostro son secas.
+            Las pieles resistentes tienen la última capa de la piel más fuerte, lo cual otorga protección a las células cutáneas, 
+            impidiendo la penetración de alergenos y otras sustancias irritantes, rara vez desarrollan acné y/o eritema.
+            La mayoría de veces  pueden utilizar cualquier tipo de producto para el cuidado de la piel</span> `;
         //output.innerHTML = `<span>Esta opción es:</span> <strong>${mensajes.grasa.texto}<strong/>`;
     } else if (num >= 1301 && num <= 1400) {
         msjPrev.innerHTML = `<h2>Tu tipo de piel es: <h2/> `
         output.innerHTML = `<h1>${mensajes.grasa.texto} ${mensajes.grasa.resistencia}<h1/>` 
         description.innerHTML = `<span>La piel grasa se caracteriza por tener una apariencia brillosa, mayor 
-            produccion de sebo, presencia de comedones, poros dilatados y puede favorecer la aparicion de acne.</span> `;
+            produccion de sebo, presencia de comedones, poros dilatados y puede favorecer la aparicion de acne.
+            Las pieles resistentes tienen la última capa de la piel más fuerte, lo cual otorga protección a las células cutáneas, 
+            impidiendo la penetración de alergenos y otras sustancias irritantes, rara vez desarrollan acné y/o eritema.
+            La mayoría de veces  pueden utilizar cualquier tipo de producto para el cuidado de la piel.</span> `;
         //output.innerHTML = `<span class="${mensajes.seca.clase}">Esta opción es:</span> ${mensajes.seca.texto}`;
     } else if (num >= 3050 && num <= 3100) {
         msjPrev.innerHTML = `<h2>Tu tipo de piel es: <h2/> `
         output.innerHTML = `<h1>${mensajes.normal.sensibilidad}<h1/>` 
-        description.innerHTML = `<span>La piel normal se caracteriza por ser lisa, sedosa y sin exceso de brillo, 
-        hidratada y sin poros dilatados, equilibro en la produccion del sebo.</span>`;
+        description.innerHTML = `<span>Las pieles sensibles o reactivas , reaccionan distinto a una piel normal , suelen ser más propensas a la 
+            inflamación y pueden presentar ardor , enrojecimiento, picazón, tirantez entre otros, las causas de la inflamación depende de cada persona ;  
+            cualquier tipo de piel ya sea grasa ,seca o  mixta pueden volverse una piel sensible.</span>`;
         //output.innerHTML = `<span class="${mensajes.sensible.clase}">Esta opción es:</span> ${mensajes.sensible.texto}`;
     }else if(num>= 3101 && num <= 3200){
         msjPrev.innerHTML = `<h2>Tu tipo de piel es: <h2/> `
         output.innerHTML = `<h1>${mensajes.seca.texto} ${mensajes.seca.sensibilidad}<h1/>` 
-        description.innerHTML = `<span></span>`;
+        description.innerHTML = `<span>La piel seca se caracteriza por una ser tirante,sin brillo,opaca, tener poca produccion 
+            de sebo, es propensa a la aparicion de pequenas arrugas; puede ser sensible y fina.
+            Las pieles sensibles o reactivas , reaccionan distinto a una piel normal , suelen ser más propensas a la inflamación y pueden presentar ardor , 
+            cualquier tipo de piel ya sea grasa ,seca o  mixta pueden volverse una piel sensible.</span>`;
     }else if(num >= 3201 && num <= 3300){
         msjPrev.innerHTML = `<h2>Tu tipo de piel es: <h2/> `
         output.innerHTML = `<h1>${mensajes.mixta.texto} ${mensajes.mixta.sensibilidad}<h1/>` 
-        description.innerHTML = `<span></span>`;
+        description.innerHTML = `<span>La piel mixta se caracteriza por tener una zona T (frente,nariz y menton) 
+            con una apriencia oleosa/brillante y con poros dilatados mientras que otras areas del rostro son secas.
+            Las pieles sensibles o reactivas , reaccionan distinto a una piel normal , suelen ser más propensas a la inflamación y pueden presentar ardor , 
+            enrojecimiento, picazón, tirantez entre otros, las causas de la inflamación depende de cada persona ;  
+            cualquier tipo de piel ya sea grasa ,seca o  mixta pueden volverse una piel sensible.</span>`;
     }else if(num >= 3301 && num <= 3400){
         msjPrev.innerHTML = `<h2>Tu tipo de piel es: <h2/> `
         output.innerHTML = `<h1>${mensajes.grasa.texto} <h1/>` 
-        description.innerHTML = `<span></span>`;
+        description.innerHTML = `<span>La piel grasa se caracteriza por tener una apariencia brillosa, mayor 
+            produccion de sebo, presencia de comedones, poros dilatados y puede favorecer la aparicion de acne.
+            Las pieles sensibles o reactivas , reaccionan distinto a una piel normal , suelen ser más propensas a la inflamación y pueden presentar ardor , 
+            enrojecimiento, picazón, tirantez entre otros, 
+            las causas de la inflamación depende de cada persona ;  cualquier tipo de piel ya sea grasa ,seca o  mixta pueden volverse una piel sensible</span>`;
     }else {
         output.innerHTML = `${mensajes.valorNoPosible.texto}`;
     }   
